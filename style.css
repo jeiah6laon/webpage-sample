@@ -1,0 +1,59 @@
+.navbar-brand, .nav-link {
+    color: black;
+}
+.active {
+    color: skyblue;
+    font-weight: bold;
+    border-bottom: 3px solid skyblue;
+}
+
+.welcome {
+background-color: skyblue;
+height: 50vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.welcome p, .services p {
+    padding: 25px 300px;
+    text-align: center;
+}
+
+.services {
+height: 50vh;
+}
+
+.services {
+    padding: 50px;
+}
+
+.serviceContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h2, h3 {
+    color: skyblue;
+    text-align: center;
+
+}
+
+.serviceContainer svg {
+    color: skyblue;
+    margin: 25px;
+}
+
+#service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#service p{
+    padding: 0px 50px;
+}
